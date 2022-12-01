@@ -35,8 +35,7 @@ public class Producto {
     public void setPrecio(double precio) {
         this.precio = precio;
     }
-    //Insert Code/to String/y generamos los 3
-
+    //Insert Code/to String/y generamos los 3:producto,nombre,precio.
     @Override
     public String toString() {
         return "Producto{" + "idProducto=" + idProducto + ", nombre=" + nombre + ", precio=" + precio + '}';
